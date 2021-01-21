@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { UserTravelGuard } from './user-travel.guard';
+import { UserTravelGuard } from './user-action.guard';
 
 describe('UserTravelGuard', () => {
   let guard: UserTravelGuard;

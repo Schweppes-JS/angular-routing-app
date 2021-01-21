@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { UserTravelGuard } from './guards/user-travel.guard';
+import { UserTravelGuard } from './guards/user-action.guard';
 import { HomeComponent } from './modules/home/components/Home/home.component';
 import { AccountComponent } from './modules/account/components/Account/account.component';
 import { AccessoriesComponent } from './modules/accessories/components/Accessories/accessories.component';
