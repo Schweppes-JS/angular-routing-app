@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.header__heading {
+  font-size: 2.85rem;
+  line-height: 32px;
+  margin: 0;
+}
