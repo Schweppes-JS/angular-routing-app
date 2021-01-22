@@ -4,17 +4,20 @@ import { HeaderComponent } from './components/Header/header.component';
 import { NavBarComponent } from './components/NavBar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './components/Footer/footer.component';
+import { ContentWrapperComponent } from './components/ContentWrapper/content-wrapper.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    ContentWrapperComponent
   ],
   exports: [
     HeaderComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    ContentWrapperComponent
   ],
   imports: [
     RouterModule,

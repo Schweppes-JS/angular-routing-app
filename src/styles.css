@@ -28,39 +28,12 @@
   width: 100%;
   height: 100%;
   gap: 15px;
-  opacity: .9;
   color: #FFDBAA;
 }
 
-.app-contatine__header {
-  grid-area: header;
-  background-color: #123552;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 0 10px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .7);
-}
-
-.app-contatine__nav-bar {
-  grid-area: nav-bar;
-  background-color: #805315;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .7);
-}
-
-.app-contatine__content-wrapper {
-  grid-area: content-wrapper;
-  background-color: #0E573A;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .7);
-}
-
-.app-contatine__footer {
-  grid-area: footer;
-  background-color: #123552;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .7);
+.img-example {
+  height: 75%;
+  width: 75%;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
